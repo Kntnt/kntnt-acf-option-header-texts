@@ -5,7 +5,7 @@
  * Plugin Name:       Kntnt Advanced Custom Field Option Page For Header Texts
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Allows ACF to add header texts settings to the Appearance menu.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -33,7 +33,7 @@ add_action( 'acf/init', function () {
 		'menu_slug' => 'header-texts',
 		'menu_title' => __( 'Header', 'kntnt-acf-option-header-texts' ),
 		'page_title' => __( 'Header texts', 'kntnt-acf-option-header-texts' ),
-		'capability' => 'kntnt_edit_footer',
+		'capability' => 'kntnt_edit_header',
 		'redirect' => false,
 	] );
 } );
