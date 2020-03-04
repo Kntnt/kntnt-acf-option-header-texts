@@ -14,7 +14,7 @@
 
 defined( 'ABSPATH' ) || die;
 
-// Give administrator right to edit footer content if not already assigned.
+// Give administrator right to edit header content if not already assigned.
 // Use a role/capability plugin (e.g. Members by Justin Tadlock) to assign
 // the capability to other roles. The reason to test that administrator
 // not already has the capability is to avoid writing to the database on
